@@ -1,0 +1,27 @@
+# Configuration locale et identifiants
+/config/database.php
+.env
+.env.*
+!.env.example
+
+# Dépendances PHP
+/vendor/
+
+# Fichiers générés et temporaires
+*.log
+*.tmp
+*.bak
+*.sql
+*.zip
+
+# Fichiers privés
+/password-reset-links.txt
+/stockflow-private/
+
+# Environnement local
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+/uploads/products/*
+!/uploads/products/.htaccess
